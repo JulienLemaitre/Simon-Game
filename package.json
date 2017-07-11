@@ -1,11 +1,15 @@
 {
   "name": "simon-game",
   "version": "1.0.0",
-  "description": "Good old Simon Game played on the ground",
+  "description": "Good old Simon Game to be played on the ground",
   "main": "/dist/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node-sass": "node-sass --output-style nested -o dist/css src/scss"
   },
   "author": "Julien Lemaitre",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
 }
