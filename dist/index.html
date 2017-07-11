@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  <link rel="stylesheet" type="text/css" href="css/simon.css">
+  <script src="js/simon.js"></script>
+</head>
+<body>
+<main>
+  <div class="simon">
+    <button class="button btn1" value="1"></button>
+    <button class="button btn2" value="2"></button>
+    <button class="button btn3" value="3"></button>
+    <button class="button btn4" value="4"></button>
+    <div class="center">
+      <h1>Simon<span class="exp">&copy;</span></h1>
+      <div class="ligne">
+        <div class="count">
+          <div id="screen"></div>
+          <div class="label">Count</div>
+        </div>
+        <div class="start">
+          <button value="start" id="start"></button>
+          <div class="label">Start</div>
+        </div>
+        <div class="strict">
+          <div id="led"></div>
+          <button value="strict" id="strict"></button>
+          <div class="label">Strict</div>
+        </div>
+      </div>
+      <div class="power">
+        <div class="label">Off</div>
+        <button value="power" id="power"><span class="switch"></span></button>
+        <div class="label">On</div>
+      </div>
+    </div>
+  </div>
+  <audio class="audio" id="audio-1" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+  <audio class="audio" id="audio-2" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+  <audio class="audio" id="audio-3" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+  <audio class="audio" id="audio-4" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
+  <audio class="audio" id="audio-5" src="https://www.soundjay.com/button/sounds/beep-03.mp3"></audio>
+  <audio class="audio" id="audio-6" src="https://www.soundjay.com/button/sounds/button-2.mp3"></audio>
+</main>
+</body>
+</html>

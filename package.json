@@ -1,0 +1,11 @@
+{
+  "name": "simon-game",
+  "version": "1.0.0",
+  "description": "Good old Simon Game played on the ground",
+  "main": "/dist/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julien Lemaitre",
+  "license": "ISC"
+}

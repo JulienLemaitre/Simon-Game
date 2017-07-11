@@ -1,0 +1,152 @@
+/* 5DAAE0 */
+html, body {
+  height: 100%;
+  box-sizing: border-box;
+  font-family: 'Bungee', cursive;
+  line-height: 1;
+  margin: 0; }
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 500px;
+  min-height: 100%;
+  background: url(https://www.textures.com/system/gallery/photos/Fabric/Carpet/9502/Carpet0025_2_download600.jpg) repeat center center; }
+
+.simon {
+  position: relative;
+  width: 460px;
+  height: 460px;
+  background-color: #000;
+  border-radius: 50%;
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.8); }
+
+h1 {
+  margin: 0;
+  font-size: 40px; }
+  h1 .exp {
+    font-size: 0.5em;
+    vertical-align: top; }
+
+button:active, button:focus {
+  outline: none; }
+
+.button {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: none;
+  z-index: 0; }
+  .button.btn1 {
+    top: 20px;
+    left: 20px;
+    background-color: #1CAB40;
+    border-top-left-radius: 100%; }
+    .button.btn1.light {
+      background-color: #35de60; }
+  .button.btn2 {
+    top: 20px;
+    right: 20px;
+    background-color: #C70D18;
+    border-top-right-radius: 100%; }
+    .button.btn2.light {
+      background-color: #f12f3b; }
+  .button.btn3 {
+    bottom: 20px;
+    left: 20px;
+    background-color: #EBAE38;
+    border-bottom-left-radius: 100%; }
+    .button.btn3.light {
+      background-color: #f2ca7e; }
+  .button.btn4 {
+    bottom: 20px;
+    right: 20px;
+    background-color: #1961CF;
+    border-bottom-right-radius: 100%; }
+    .button.btn4.light {
+      background-color: #4b8ae9; }
+
+.center {
+  position: absolute;
+  top: 110px;
+  left: 110px;
+  width: 220px;
+  height: 220px;
+  background-color: #ddd;
+  border: 10px solid #000;
+  border-radius: 50%;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px; }
+
+.ligne {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
+  .ligne div {
+    margin: 5px; }
+
+.start, .strict {
+  text-align: center; }
+  .start button, .strict button {
+    width: 30px;
+    height: 30px;
+    border: 4px solid #000;
+    border-radius: 50%; }
+
+.start button {
+  background-color: #C70D18; }
+
+.strict button {
+  background-color: #EBAE38; }
+
+#led {
+  width: 5px;
+  height: 5px;
+  border: 3px solid #000;
+  border-radius: 50%;
+  margin: 0 auto 5px;
+  background-color: #000; }
+  #led.on {
+    background-color: #C70D18; }
+
+.count {
+  text-align: center; }
+
+#screen {
+  color: #C70D18;
+  background-color: #000;
+  padding: 10px;
+  border-radius: 10px;
+  width: 35px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 2em; }
+
+.power {
+  display: flex;
+  align-items: center; }
+  .power button {
+    margin: 0 5px;
+    width: 35px;
+    height: 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: #000;
+    position: relative; }
+    .power button span {
+      background-color: #1961CF;
+      width: 16px;
+      height: 16px;
+      border-radius: 2px;
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      right: auto; }
+    .power button.on span {
+      right: 2px;
+      left: auto; }
